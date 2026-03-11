@@ -27,6 +27,9 @@ Stoppar spambots och folk som försöker ta sig in på servern automatiskt om de
 ### Backup
 I main.tf finns resursen `"google_compute_disk_resource_policy_attachment" "backup_attachment"`. Enligt medföljande policy görs en backup varje dag.
 
+### Trivy
+Automatisk säkerhetsscanning för att kolla att terraform-konfigurationen är okej.
+
 ### Ägandeskap
 Om något händer kan vi direkt se vem som "äger" resursen. Det spelar inte så stor roll i den här labben för det är bara jag som kan göra fel, men det är användbart i produktionsmiljö.
 ```
