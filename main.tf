@@ -64,6 +64,6 @@ resource "google_compute_disk_resource_policy_attachment" "backup_attachment" {
   disk = google_compute_instance.vm.name
   # disk = google_compute_instance.vm.boot_disk[0].source
   # zone = "${var.region}-c"
-  zone = google_compute_instance.vm.zone
+  zone       = google_compute_instance.vm.zone
   depends_on = [google_compute_instance.vm]
 }
