@@ -41,4 +41,6 @@ Om något händer kan vi direkt se vem som "äger" resursen. Det spelar inte så
 ```
 
 ### VM i GCP Console
-TODD OH
+<p align="center">
+  <img src="gcp.png" width="600" title="GCP Console Yolo">
+</p>
