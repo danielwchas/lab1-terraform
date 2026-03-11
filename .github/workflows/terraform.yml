@@ -2,9 +2,9 @@ name: Terraform CI
 
 on:
   push:
-    branches: ["master", "feature/*"]
+    branches: ["main"]
   pull_request:
-    branches: ["master", "feature/*"]
+    branches: ["main"]
 
 jobs:
   lint:
