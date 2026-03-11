@@ -5,8 +5,10 @@ Projektet syftar till att deploya en VM automatiskt på GCP med Terraform. Det a
 ## Hur man kör
 Initialisera:
 `terraform init`
+
 Planera:
 `terraform plan`
+
 Vamos A L-Applya:
 `terraform apply`
 
@@ -29,13 +31,9 @@ I main.tf finns resursen `"google_compute_disk_resource_policy_attachment" "back
 Om något händer kan vi direkt se vem som "äger" resursen. Det spelar inte så stor roll i den här labben för det är bara jag som kan göra fel, men det är användbart i produktionsmiljö.
 ```
  labels = {
-
    student = var.student_id
-
    course  = "devsecops-2026"
-
    lab     = "1"
-
  }
 ```
 
